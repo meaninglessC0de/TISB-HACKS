@@ -10,13 +10,10 @@
 }
 
 #line11{
-    width:97%;
+    width:100%;
     height:50px;
     background-color: rgb(126, 182, 81);
-    border-radius: 15px 15px 15px 15px;
-    margin-left:15px;
     display:inline-block;
-    margin-top:15px;
 }
 
 .buttons{
@@ -124,6 +121,7 @@
     border:2px solid rgb(0, 0, 0);
     border-radius: 20px;
     font-family: monospace;
+    margin-top:230px;
 }
 
 .info{
@@ -132,5 +130,16 @@
     width: 150px;
     height:25px;
     border: 1px solid black;
+    margin-top:15px;
+    margin-left:10px;
 }
 
+.consultbox{
+    background-color: rgb(182, 245, 182);
+    width:70%;
+    height:70%;
+    text-align:center;
+    margin-top:50px;
+    margin-left:175px;
+    border-radius: 10px;
+}
