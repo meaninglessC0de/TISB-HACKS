@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(255, 249, 249);
+    background-color: rgb(255, 255, 255);
 }
 
 .h1{
@@ -142,4 +142,70 @@
     margin-top:50px;
     margin-left:175px;
     border-radius: 10px;
+}
+
+#ho{
+    background-color: rgb(184, 247, 184);
+    width: 100%;
+    height:300px;
+    border-radius: 10px;
+    padding:20px;
+    text-align:center;
+}
+#inho{
+    background-color: rgb(255, 255, 255);
+    width:75%;
+    height:200px;
+    border-radius: 10px;
+    padding:20px;
+    margin-left:10%;
+
+}
+
+#pinho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(168, 160, 160);
+    font-size: 20px;
+    margin-left:40px;
+    margin-top:20px;
+    
+}
+
+#head3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color:black;
+    margin-left:40px;
+    margin-top:60px;
+    font-size: 50px;
+}
+
+#aboutusdiv{
+    width:100%;
+    height:300px;
+    margin-top:200px;
+    background-color:rgb(135, 189, 135) ;
+    text-align: right;
+    padding:20px;
+}
+
+
+#head3v2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color:black;
+    margin-right:70px;
+    font-size: 60px;
+}
+
+#pinhov2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right:40px;
+    margin-top:15px;
+}
+
+#heartimage{
+    position:absolute;
+    left:900px;
+    bottom:50px;
 }
