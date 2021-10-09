@@ -1,0 +1,31 @@
+{% extends 'basic_app/base.html' %}
+{% block content %}
+
+{% if user.is_authenticated %}
+    <a class="btn btn-primary" href="{% url 'doctor_edit' pk=doctor.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+    <a class="btn btn-primary" href="{% url 'doctor_remove' pk=doctor.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+{% endif %}
+
+  <h1> About {{doctor.name}}</h1>
+  <p>Age: {{doctor.age}}</p>
+  <p>Gender: {{doctor.gender}}</p>
+  <p>Degree: {{doctor.degree}}</p>
+  <p>Description: {{doctor.description|safe|linebreaksbr}}</p>
+
+  <a href="{% url 'add_patient_to_dotctor' pk=doctor.pk%}">Consult</a>
+
+  {% if user.is_authenticated%}
+
+  {% for patient in doctor.patients.all %}
+
+  <br>
+  <br>
+  <p> These are {{doctor.name}}'s current patients:</p>
+  <ul>
+        <a href="{% url 'patient_detail' pk=patient.pk%}"><li>{{ patient.name|safe|linebreaks }}</li></a>
+  </ul>
+  <br>
+  {% endfor %}
+
+  {%endif%}
+{%endblock%}

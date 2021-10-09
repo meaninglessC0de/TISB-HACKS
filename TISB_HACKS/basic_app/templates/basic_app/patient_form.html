@@ -1,0 +1,12 @@
+
+{% extends 'basic_app/base.html' %}
+{% block content %}
+
+<form method="POST">
+  <p>We'll get back to you using the email id provided!</p>
+  {% csrf_token %}
+  {{form.as_p}}
+    <button type="submit" class="save btn btn-primary">consult!</button>
+</form>
+
+{%endblock%}

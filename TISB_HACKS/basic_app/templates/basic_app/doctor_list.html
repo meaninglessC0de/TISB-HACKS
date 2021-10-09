@@ -1,0 +1,12 @@
+{% extends 'basic_app/base.html' %}
+{% block content %}
+    <div class="centerstage">
+        {% for doctor in doctor_list %}
+            <div class="post">
+                <h1><a href="{% url 'doctor_detail' pk=doctor.pk %}">{{ doctor.name }}</a></h1>
+                Patients: {{ doctor.patients.count }}
+            </div>
+        {% endfor %}
+    </div>
+
+{%endblock%}
