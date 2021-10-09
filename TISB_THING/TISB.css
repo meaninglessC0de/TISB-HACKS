@@ -10,8 +10,7 @@
 }
 
 #line11{
-    position:absolute;
-    width:90%;
+    width:97%;
     height:50px;
     background-color: rgb(126, 182, 81);
     border-radius: 15px 15px 15px 15px;
@@ -116,6 +115,7 @@
     width:50%;
     background-color: rgb(182, 245, 182);
     display: inline-block;
+    text-align: center;
 }
 .consultputs{
     font-size:50px;
@@ -125,3 +125,12 @@
     border-radius: 20px;
     font-family: monospace;
 }
+
+.info{
+    border-radius:2px;
+    padding:5px;
+    width: 150px;
+    height:25px;
+    border: 1px solid black;
+}
+
