@@ -1,0 +1,26 @@
+{% extends 'basic_app/base.html' %}
+
+{% block content %}
+{% load staticfiles%}
+<div>
+<h1 id = "head3">Welcome to TISB, the site to connect you to <br>
+    the largest community of doctors<br>
+     and patients.</h1>
+<p id = "pinho"> Find our massive team of doctors for quick and easy access
+    to top doctors<br> specializing in a variety of fields. Our specialized tools will keep you informed<br>
+    on your situation, 24/7.</p>
+
+<img src = "{%static 'heart_image.png'%}" id = "heartimage">
+</div>
+
+<div id = "  ">
+    <h1 id = "head3v2">About us</h1>
+    <span id="tick" style="font-size:120px; right:80%; top:85%;" class="glyphicon glyphicon-globe"></span>
+    <p id = "pinhov2">We are a team of developers aiming<br>
+                     to establish firm connections in the healthcare industry with patients and doctors.<br>
+                     We've created a platform packed with features to allow anyone to
+                     interact with registered<br> medical professionals. Our site also allows users to interact on a forum for asking health questions publcily.</p>
+</div>
+
+
+{%endblock%}
