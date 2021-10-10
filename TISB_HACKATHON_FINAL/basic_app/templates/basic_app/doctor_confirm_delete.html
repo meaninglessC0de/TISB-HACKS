@@ -1,0 +1,14 @@
+{% extends 'basic_app/base.html' %}
+{% block content %}
+
+<form method="post">
+  {% csrf_token %}
+  <div class="container jumbotron" style="background-color: rgb(181, 241, 145);border-radius:35px">
+    <h3>Are you sure you want to delete {{ object }}?</h3>
+    <br>
+    <input type="submit" class="btn btn-danger" value="Delete!">
+  </div>
+
+
+</form>
+{%endblock%}

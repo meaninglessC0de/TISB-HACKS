@@ -1,0 +1,228 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.h1{
+    font-family:Helvetica;
+    color:rgb(0, 0, 0);
+    margin-left:20px;
+    display: inline-block;
+}
+
+#line11{
+    width:100%;
+    height:50px;
+    background-color: rgb(126, 182, 81);
+    display:inline-block;
+}
+
+.buttons{
+    display: inline-block;
+}
+#home{
+    height:50px;
+    width:100px;
+    background-color: rgb(126, 182, 81);
+    border:none;
+    font-family: Verdana;
+    color:black;
+    border-radius:15px 0px 0px 15px;
+    font-weight:500;
+    padding:10px;
+    display:inline-block;
+}
+
+#home:hover{
+    background-color: rgb(110, 172, 85);
+    transition: 0.75s;
+}
+#aboutus{
+    height:50px;
+    width:100px;
+    background-color: rgb(126, 182, 81);
+    border:none;
+    font-family: Verdana;
+    color:black;
+    font-weight:500;
+    padding:10px;
+    display:inline-block;
+}
+
+#aboutus:hover{
+    background-color: rgb(110, 172, 85);
+    transition: 0.75s;
+}
+
+#doctors{
+    height:50px;
+    width:100px;
+    background-color: rgb(126, 182, 81);
+    border:none;
+    font-family: Verdana;
+    color:black;
+    font-weight:500;
+    padding:10px;
+    display:inline-block;
+}
+
+#doctors:hover{
+    background-color: rgb(110, 172, 85);
+    transition: 0.75s;
+}
+
+.docs{
+    width:47%;
+    background-color: rgb(125, 197, 108);
+    margin-left:15px;
+    margin-top: 25px;
+    padding:15px;
+    border-radius: 15px;
+    float:left;
+}
+
+.docs:hover{
+    transition:1s ease-in-out;
+    background-color: rgb(101, 163, 87);
+    transform:scale(1.02)
+}
+.h2{
+    color:whitesmoke
+}
+
+.p{
+    color:whitesmoke
+}
+
+#Doc{
+    margin-left:20px;
+    margin-top:30px;
+}
+.desc{
+    margin-top:30px;
+    margin-left:20px;
+}
+.docdesc{
+    display: inline-block;
+    width: 50%;
+    padding:30px;
+}
+
+.docconsult{
+    height:100%;
+    width:50%;
+    background-color: rgb(182, 245, 182);
+    display: inline-block;
+    text-align: center;
+}
+.consultputs{
+    font-size:50px;
+    padding:15px;
+    background-color: rgb(189, 238, 116);
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-family: monospace;
+    margin-top:230px;
+}
+
+.info{
+    border-radius:2px;
+    padding:5px;
+    width: 150px;
+    height:25px;
+    border: 1px solid black;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.consultbox{
+    background-color: rgb(182, 245, 182);
+    width:70%;
+    height:70%;
+    text-align:center;
+    margin-top:50px;
+    margin-left:175px;
+    border-radius: 10px;
+}
+
+#ho{
+    background-color: rgb(184, 247, 184);
+    width: 100%;
+    height:300px;
+    border-radius: 10px;
+    padding:20px;
+    text-align:center;
+}
+#inho{
+    background-color: rgb(255, 255, 255);
+    width:75%;
+    height:200px;
+    border-radius: 10px;
+    padding:20px;
+    margin-left:10%;
+
+}
+
+#pinho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(168, 160, 160);
+    font-size: 20px;
+    margin-left:40px;
+    margin-top:20px;
+    float:left;
+
+}
+
+#head3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color:black;
+    margin-left:40px;
+    margin-top:60px;
+    font-size: 50px;
+}
+#aboutusdiv{
+    width:100%;
+    height:50%;
+    background-color:rgb(135, 189, 135) ;
+    margin-top:300px;
+    text-align: right;
+    padding:20px;
+}
+#aboutusdiv2{
+    height:100%;
+    background-color:rgb(171, 238, 171) ;
+    text-align: right;
+    padding:20px;
+}
+
+
+#head3v2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color:black;
+    font-size: 60px;
+    margin-right:70px;
+}
+
+#pinhov2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right:40px;
+    margin-top:15px;
+}
+
+#heartimage{
+    float:right;
+    margin-right:70px;
+}
+
+#headiv{
+    background: whitesmoke;
+    height:20%;
+    padding:50px;
+    text-align:right;
+}
